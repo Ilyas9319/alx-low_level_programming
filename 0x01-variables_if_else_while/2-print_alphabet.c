@@ -1,16 +1,19 @@
 #include <stdio.h>
-/* I sometimes suffer from insomnia. And when I can't fall asleep I play what I call the alphabet game */
-int main(void) 
+
+/**
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	/*Correction of  I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game*/
-	char caracter;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-for (i = 97 ; i < 123 ; i++)
-{
-	caracter = i;
-	putchar ( caracter ) ; 
-}
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 	putchar('\n');
 	return (0);
 }
