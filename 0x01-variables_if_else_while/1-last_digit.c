@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/**
+ * main - Determines the last digit of a number and checks its value.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int n;
+	int n;
     int lastDigit;
 
     srand(time(0));
