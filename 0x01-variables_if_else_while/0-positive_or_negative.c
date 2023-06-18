@@ -1,15 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
-/**
- * main - Entry point of the program
- *
- * Description: Assigns a random number to the variable n and prints whether
- *              the number is positive or negative.
- *
- * Return: 0 on success
- */
 int main(void)
 {
     int n;
