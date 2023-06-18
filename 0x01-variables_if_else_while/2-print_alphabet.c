@@ -6,7 +6,8 @@ int main() {
     int i;
     for(i=97;i<123;i++)
     {caracter=i;
-        putchar(caracter);
+        putchar(caracter); 
     }
+    putchar('\n');
     return 0;
 }
