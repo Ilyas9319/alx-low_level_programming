@@ -4,6 +4,13 @@
  *
  * Return: Always 0.
  */
+void print_alphabet(void);
+int main(void)
+{
+	print_alphabet();
+	putchar('\n');
+	return (0);
+}
 void print_alphabet(void)
 	{
 		int i;
@@ -13,9 +20,3 @@ void print_alphabet(void)
 			putchar(i);
 		}
 	}
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-	return (0);
-}
