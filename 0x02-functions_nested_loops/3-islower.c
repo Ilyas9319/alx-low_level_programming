@@ -1,7 +1,4 @@
-#include <ctype.h>
-
-int _islower(int c) 
+int _islower(int c)
 {
-	return islower(c);
+	return (c >= 'a' && c <= 'z');
 }
-
