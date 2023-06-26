@@ -17,4 +17,11 @@ void print_rev(char *s)
 	putchar(s[i]);
 }
 
+int _strlen(char *s)
+{
+	int len;
+
+	len = strlen(s);
+	return (len);
+}
 }
